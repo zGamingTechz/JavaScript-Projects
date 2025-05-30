@@ -12,6 +12,7 @@ const messageElement = document.getElementById("message")
 const sumElement = document.getElementById("sum")
 const cardElement = document.getElementById("cards")
 const cashElement = document.getElementById("cash")
+const startButton = document.getElementById("start")
 
 function updateImage(card) {
     let image = document.createElement("img")
@@ -37,7 +38,7 @@ function getRandomCard() {
     }
 }
 
-function start() {
+startButton.addEventListener("click", function() {
     if (inProgress) {
         return
     }
@@ -58,7 +59,7 @@ function start() {
     updateImage(card2)
     sum = card1 + card2
     processGame()
-}
+})
 
 function processGame() {
     if (sum < 21) {
