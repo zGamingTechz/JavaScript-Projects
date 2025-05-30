@@ -1,0 +1,39 @@
+h1 {
+    color: #b8810b;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    background-color: #076a22;
+}
+
+#message {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #b8810b;
+    width: 250px;
+    height: 75px;
+    border-radius: 10px;
+    border-color: #ffffff;
+    border-width: 5px;
+    border-style: solid;
+    margin: 10px;
+}

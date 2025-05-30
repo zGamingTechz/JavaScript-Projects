@@ -1,0 +1,26 @@
+h1 {
+    color: #ba1c1c;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    color: #0c0c93;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+button {
+    color: #0c0c93;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ba1c1c;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    border-color: #0c0c93;
+    border-width: 5px;
+    border-style: solid;
+    margin: 10px;
+}
