@@ -2,9 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Settings</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        label { display: block; margin: 10px 0 5px; }
+        select, button { padding: 5px 10px; }
+    </style>
 </head>
 <body>
+    <h2>Water Reminder Settings</h2>
 
+    <label for="interval">Reminder Interval (minutes)</label>
+    <select id="interval">
+        <option value="15">15 minutes</option>
+        <option value="30">30 minutes</option>
+        <option value="60" selected>60 minutes</option>
+        <option value="90">90 minutes</option>
+    </select>
+
+    <label for="mode">Reminder Mode</label>
+    <select id="mode">
+        <option value="video">Only when videos are playing</option>
+        <option value="always">Always remind me</option>
+    </select>
+
+    <br><br>
+    <button id="save">Save Settings</button>
+    <p id="status"></p>
+
+    <script src="options.js"></script>
 </body>
 </html>
