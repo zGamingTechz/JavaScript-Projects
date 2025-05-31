@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Drink Water Reminder",
+  "version": "1.0",
+  "description": "Reminds you to drink water regularly.",
+  "permissions": ["scripting", "tabs", "activeTab", "alarms", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Stay Hydrated!"
+  },
+  "options_page": "options.html"
+}
