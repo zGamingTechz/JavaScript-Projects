@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Drink Water Reminder",
+  "name": "Drink Water Reminder by Bhavya",
   "version": "1.0",
   "description": "Reminds you to drink water regularly.",
   "permissions": ["scripting", "tabs", "activeTab", "alarms", "storage"],
